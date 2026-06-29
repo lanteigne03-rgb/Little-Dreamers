@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Dreamers | Kids Birthday Party Activities in Brooklyn &amp; Deal</title>
+    <meta name="description" content="Little Dreamers brings creative, hands-on birthday party activities directly to your celebration in Brooklyn and Deal. Drip paint, neon hat design, plush-making parties and more!">
+    <meta name="keywords" content="kids birthday party Brooklyn, kids birthday party Deal NJ, children's party activities, mobile birthday party, craft party, plush party">
+    <meta name="author" content="Little Dreamers">
+    <meta property="og:title" content="Little Dreamers | Kids Birthday Party Activities in Brooklyn &amp; Deal">
+    <meta property="og:description" content="We bring the fun, creativity, and party magic to you, with guided activities kids will remember.">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#AA72DC">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: #FFFFFF;
+            color: #1E1414;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a    { text-decoration: none; color: inherit; }
+        ul   { list-style: none; }
+        img  { max-width: 100%; display: block; }
+
+        .wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
+        section { padding: 80px 0; }
+
+        /* brand colors */
+        :root {
+            --green:  #88D668;
+            --orange: #FFB85C;
+            --teal:   #50CCCC;
+            --purple: #AA72DC;
+            --pink:   #F07DB5;
+            --yellow: #F8E070;
+            --red:    #F07878;
+            --navy:   #241A50;
+        }
+
+        /* ── TYPOGRAPHY ── */
+        h1, h2, h3 {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 900;
+            line-height: 1.1;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            padding: 5px 14px;
+            border-radius: 100px;
+            margin-bottom: 12px;
+        }
+
+        .section-heading {
+            font-size: clamp(2rem, 4.5vw, 3rem);
+            letter-spacing: -0.01em;
+            margin-bottom: 12px;
+        }
+
+        .section-lead {
+            font-size: 1.05rem;
+            color: #5A4850;
+            max-width: 560px;
+            line-height: 1.75;
+            font-weight: 500;
+        }
+
+        .centered { text-align: center; }
+        .centered .section-lead { margin: 0 auto; }
+
+        /* ── BUTTONS ── */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 30px;
+            border-radius: 100px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 800;
+            font-size: 1rem;
+            cursor: pointer;
+            border: none;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            white-space: nowrap;
+        }
+        .btn:hover  { transform: translateY(-3px); }
+        .btn:active { transform: translateY(0); }
+
+        .btn-purple { background: var(--purple); color: #FFF; box-shadow: 0 5px 0 #8050BC; }
+        .btn-purple:hover { box-shadow: 0 7px 0 #8050BC; }
+
+        .btn-yellow { background: var(--yellow); color: #1E1414; box-shadow: 0 5px 0 #C8C040; }
+        .btn-yellow:hover { box-shadow: 0 7px 0 #C8C040; }
+
+        .btn-white  { background: #FFF; color: var(--purple); box-shadow: 0 5px 0 rgba(0,0,0,0.15); }
+        .btn-white:hover { box-shadow: 0 7px 0 rgba(0,0,0,0.15); }
+
+        .btn-orange { background: var(--orange); color: #FFF; box-shadow: 0 5px 0 #D09040; }
+        .btn-orange:hover { box-shadow: 0 7px 0 #D09040; }
+
+        /* ── POLAROIDS ── */
+        .polaroid {
+            position: absolute;
+            background: #FFF;
+            padding: 10px 10px 38px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.18), 0 2px 6px rgba(0,0,0,0.08);
+            border-radius: 2px;
+            z-index: 3;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            cursor: default;
+        }
+        .polaroid:hover {
+            box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+            z-index: 10;
+        }
+        .polaroid img {
+            width: 190px;
+            height: 155px;
+            object-fit: cover;
+            display: block;
+        }
+        .polaroid-label {
+            text-align: center;
+            font-size: 0.72rem;
+            font-weight: 800;
+            color: #7A5070;
+            padding-top: 7px;
+            font-family: 'Nunito', sans-serif;
+            letter-spacing: 0.02em;
+        }
+        .pol-1 { left: 3%;  top: 12%;    transform: rotate(-7deg);  }
+        .pol-2 { right: 3%; top: 8%;     transform: rotate(5deg);   }
+        .pol-3 { right: 6%; bottom: 10%; transform: rotate(-4deg);  }
+        .pol-4 { left: 4%;  bottom: 8%;  transform: rotate(6deg);   }
+        .pol-1:hover { transform: rotate(-2deg) scale(1.05); }
+        .pol-2:hover { transform: rotate(1deg)  scale(1.05); }
+        .pol-3:hover { transform: rotate(-1deg) scale(1.05); }
+        .pol-4:hover { transform: rotate(2deg)  scale(1.05); }
+        @media (max-width: 1080px) { .polaroid { display: none; } }
+
+        /* ── MOBILE PHOTO STRIP ── */
+        .mobile-photo-strip {
+            display: none;
+        }
+        @media (max-width: 1080px) {
+            .mobile-photo-strip {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                padding: 28px 28px 12px;
+                justify-items: center;
+            }
+            .mobile-photo-strip .m-pol {
+                background: #FFF;
+                padding: 8px 8px 32px;
+                box-shadow: 0 8px 24px rgba(0,0,0,0.16), 0 2px 6px rgba(0,0,0,0.08);
+                border-radius: 2px;
+                width: 100%;
+                transform: rotate(-2deg);
+            }
+            .mobile-photo-strip .m-pol:nth-child(2) { transform: rotate(3deg); }
+            .mobile-photo-strip .m-pol:nth-child(3) { transform: rotate(-1deg); }
+            .mobile-photo-strip .m-pol:nth-child(4) { transform: rotate(2.5deg); }
+            .mobile-photo-strip .m-pol img {
+                width: 100%;
+                height: 120px;
+                object-fit: cover;
+                display: block;
+            }
+            .mobile-photo-strip .m-pol-label {
+                text-align: center;
+                font-size: 0.65rem;
+                font-weight: 800;
+                color: #7A5070;
+                padding-top: 6px;
+                font-family: 'Nunito', sans-serif;
+                letter-spacing: 0.02em;
+            }
+        }
+
+        /* ── ABOUT IMAGE ── */
+        .about-image {
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+            border: 4px solid rgba(170,114,220,0.18);
+            position: relative;
+        }
+
+        .about-image::before {
+            content: '';
+            display: block;
+            padding-top: 110%;
+            background: linear-gradient(135deg, var(--pink) 0%, var(--purple) 100%);
+        }
+
+        .about-image img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+        }
+
+        /* ── PARTY SHOWCASE ── */
+        .party-showcase {
+            background: var(--navy);
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+            max-height: 440px;
+        }
+
+        .party-showcase img {
+            width: 100%;
+            height: 440px;
+            object-fit: cover;
+            object-position: center 30%;
+            display: block;
+        }
+
+        .party-showcase-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to right, rgba(36,26,80,0.72) 0%, rgba(36,26,80,0.2) 60%, transparent 100%);
+            display: flex;
+            align-items: center;
+            padding: 0 80px;
+        }
+
+        .party-showcase-text h2 {
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            color: #FFF;
+            margin-bottom: 10px;
+            line-height: 1.1;
+        }
+
+        .party-showcase-text p {
+            color: rgba(255,255,255,0.75);
+            font-size: 1rem;
+            font-weight: 600;
+            max-width: 360px;
+            line-height: 1.6;
+        }
+
+        /* ── SCROLL REVEAL ── */
+        .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.55s ease, transform 0.55s ease; }
+        .reveal.in { opacity: 1; transform: none; }
+
+        .stagger > * { opacity: 0; transform: translateY(24px); transition: opacity 0.5s ease, transform 0.5s ease; }
+        .stagger.in > *:nth-child(1) { opacity: 1; transform: none; transition-delay: 0s;   }
+        .stagger.in > *:nth-child(2) { opacity: 1; transform: none; transition-delay: 0.1s; }
+        .stagger.in > *:nth-child(3) { opacity: 1; transform: none; transition-delay: 0.2s; }
+        .stagger.in > *:nth-child(4) { opacity: 1; transform: none; transition-delay: 0.3s; }
+        .stagger.in > *:nth-child(5) { opacity: 1; transform: none; transition-delay: 0.4s; }
+        .stagger.in > *:nth-child(6) { opacity: 1; transform: none; transition-delay: 0.5s; }
+
+        @keyframes bob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+        @keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+        @keyframes wiggle { 0%,100%{transform:rotate(-6deg)} 50%{transform:rotate(6deg)} }
+
+
+        /* ══════════════════════════════════════
+           NAV
+        ══════════════════════════════════════ */
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: #FFFFFF;
+            border-bottom: 3px solid #F0E8F8;
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 68px;
+            gap: 24px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links { display: flex; align-items: center; gap: 24px; flex: 1; justify-content: center; }
+        .nav-links a { font-size: 0.9rem; font-weight: 700; color: #5A4060; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--purple); }
+
+        .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 6px; border-radius: 8px; color: #1E1414; }
+
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            top: 68px; left: 0; right: 0;
+            background: #FFF;
+            border-bottom: 3px solid #F0E8F8;
+            padding: 8px 28px 24px;
+            z-index: 99;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+        }
+        .mobile-nav.open { display: block; }
+
+        .mobile-nav a {
+            display: block;
+            padding: 13px 0;
+            font-weight: 700;
+            font-size: 1rem;
+            color: #1E1414;
+            border-bottom: 2px solid #F0E8F8;
+        }
+        .mobile-nav .mobile-cta {
+            display: block;
+            margin-top: 16px;
+            text-align: center;
+            background: var(--purple);
+            color: #FFF;
+            padding: 14px;
+            border-radius: 100px;
+            font-weight: 800;
+            font-size: 1rem;
+            box-shadow: 0 4px 0 #6A38A0;
+        }
+
+
+        /* ══════════════════════════════════════
+           HERO
+        ══════════════════════════════════════ */
+        .hero {
+            background: #FFFFFF;
+            padding: 80px 28px 90px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* bold color bars at top and bottom of hero */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 8px;
+            background: linear-gradient(90deg, var(--green), var(--yellow), var(--orange), var(--pink), var(--purple), var(--teal));
+        }
+
+        .hero-inner {
+            max-width: 640px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #FFF3C0;
+            border: 2.5px solid var(--yellow);
+            border-radius: 100px;
+            padding: 5px 16px;
+            font-size: 0.78rem;
+            font-weight: 800;
+            color: #7A5A00;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin: 0 auto 20px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.4rem, 5vw, 3.8rem);
+            color: #1E1414;
+            margin-bottom: 18px;
+            line-height: 1.05;
+        }
+
+        .hero h1 .c1 { color: var(--purple); }
+        .hero h1 .c2 { color: var(--orange); }
+        .hero h1 .c3 { color: var(--teal); }
+
+        .hero-desc {
+            font-size: 1.08rem;
+            color: #5A4060;
+            line-height: 1.75;
+            margin: 0 auto 32px;
+            font-weight: 500;
+            max-width: 480px;
+        }
+
+        .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+
+        /* hero right sidecolorful floating cards */
+        .hero-right {
+            display: none;
+        }
+
+        .hero-mini-card {
+            border-radius: 22px;
+            padding: 22px 18px;
+            text-align: center;
+        }
+
+        .hero-mini-card h4 { font-size: 1rem; font-weight: 900; margin-bottom: 6px; color: #FFF; }
+        .hero-mini-card p  { font-size: 0.78rem; color: rgba(255,255,255,0.88); font-weight: 600; line-height: 1.4; }
+
+        .hc-purple { background: var(--purple); }
+        .hc-orange { background: var(--orange); }
+        .hc-teal   { background: var(--teal);   }
+        .hc-green  { background: var(--green);  grid-column: 1 / -1; }
+
+        .hero-mini-card .card-icon {
+            width: 48px; height: 48px;
+            background: rgba(255,255,255,0.22);
+            border-radius: 12px;
+            display: flex; align-items: center; justify-content: center;
+            margin: 0 auto 12px;
+        }
+
+        .hc-green .card-inner {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            text-align: left;
+        }
+
+        .hc-green h4 { font-size: 1.1rem; }
+
+        /* decorative SVG doodles in hero */
+        .deco { position: absolute; pointer-events: none; z-index: 1; }
+
+
+        /* ══════════════════════════════════════
+           ABOUT
+        ══════════════════════════════════════ */
+        .about { background: #F3EAFF; position: relative; overflow: hidden; }
+
+        .about-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+
+        .about .eyebrow { background: var(--purple); color: #FFF; }
+
+        .about h2 { color: var(--purple); }
+
+        .about p { font-size: 1.02rem; color: #4A3A60; line-height: 1.8; margin-bottom: 16px; font-weight: 500; }
+
+        .about-stats { display: flex; gap: 14px; margin-top: 28px; flex-wrap: wrap; }
+
+        .stat-box {
+            background: var(--purple);
+            color: #FFF;
+            border-radius: 18px;
+            padding: 18px 20px;
+            flex: 1;
+            min-width: 100px;
+            text-align: center;
+        }
+
+        .stat-box .num { font-size: 2rem; font-weight: 900; line-height: 1; margin-bottom: 4px; color: var(--yellow); }
+        .stat-box .lbl { font-size: 0.78rem; font-weight: 700; opacity: 0.88; text-transform: uppercase; letter-spacing: 0.05em; }
+
+        /* about right: colorful stacked cards */
+        .about-cards {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .about-feature-card {
+            border-radius: 20px;
+            padding: 18px 20px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .about-feature-card .fc-icon {
+            width: 52px; height: 52px;
+            border-radius: 14px;
+            background: rgba(255,255,255,0.25);
+            display: flex; align-items: center; justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .afc-1 { background: var(--orange); }
+        .afc-2 { background: var(--teal);   }
+        .afc-3 { background: var(--green);  }
+
+        .about-feature-card h4 { font-size: 0.98rem; font-weight: 900; color: #FFF; margin-bottom: 2px; }
+        .about-feature-card p  { font-size: 0.8rem; color: rgba(255,255,255,0.88); font-weight: 500; }
+
+
+        /* ══════════════════════════════════════
+           ACTIVITIES
+        ══════════════════════════════════════ */
+        .activities { background: #FFF; }
+
+        .activities .eyebrow { background: #FFE8D0; color: #A04808; }
+
+        .act-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 48px;
+        }
+
+        .act-card {
+            border-radius: 26px;
+            padding: 32px 24px 28px;
+            transition: transform 0.2s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .act-card:hover { transform: translateY(-6px); }
+
+        /* wavy bottom shape on cards */
+        .act-card::after {
+            content: '';
+            position: absolute;
+            bottom: -20px; left: -10px; right: -10px;
+            height: 40px;
+            border-radius: 50%;
+            opacity: 0.15;
+        }
+
+        .ac-1 { background: var(--orange); }
+        .ac-2 { background: var(--teal);   }
+        .ac-3 { background: var(--purple); }
+
+        .act-icon-box {
+            width: 64px; height: 64px;
+            background: rgba(255,255,255,0.25);
+            border-radius: 18px;
+            display: flex; align-items: center; justify-content: center;
+            margin-bottom: 16px;
+        }
+
+        .act-chip {
+            display: inline-block;
+            background: rgba(255,255,255,0.28);
+            color: #FFF;
+            font-size: 0.7rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 3px 10px;
+            border-radius: 100px;
+            margin-bottom: 12px;
+        }
+
+        .act-card h3 { font-size: 1.25rem; color: #FFF; margin-bottom: 10px; }
+        .act-card p  { font-size: 0.9rem; color: rgba(255,255,255,0.92); line-height: 1.72; font-weight: 500; }
+
+        .act-detail {
+            margin-top: 16px;
+            padding-top: 14px;
+            border-top: 2px solid rgba(255,255,255,0.2);
+        }
+
+        .act-themes-label {
+            font-size: 0.68rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: rgba(255,255,255,0.6);
+            margin-bottom: 8px;
+        }
+
+        .act-theme-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 14px;
+        }
+
+        .att {
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 100px;
+            background: rgba(255,255,255,0.18);
+            color: rgba(255,255,255,0.95);
+        }
+
+        .act-takehome {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.9);
+            background: rgba(0,0,0,0.1);
+            border-radius: 10px;
+            padding: 9px 12px;
+        }
+
+
+        /* ══════════════════════════════════════
+           PACKAGES
+        ══════════════════════════════════════ */
+        .packages { background: #FFF6E8; position: relative; overflow: hidden; }
+
+        .packages .eyebrow { background: var(--orange); color: #FFF; }
+        .packages h2 { color: var(--orange); }
+
+        .pkg-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 48px;
+            align-items: start;
+        }
+
+        .pkg {
+            border-radius: 26px;
+            padding: 30px 24px 26px;
+            position: relative;
+            transition: transform 0.2s ease;
+        }
+        .pkg:hover { transform: translateY(-5px); }
+
+        .p-1 { background: #FFF; border: 3px solid var(--green); }
+        .p-2 { background: var(--purple); }
+        .p-3 { background: #FFF; border: 3px solid var(--teal); }
+
+        .pop-badge {
+            position: absolute;
+            top: -16px; left: 50%;
+            transform: translateX(-50%);
+            background: var(--yellow);
+            color: #1E1414;
+            font-size: 0.72rem;
+            font-weight: 900;
+            padding: 5px 18px;
+            border-radius: 100px;
+            white-space: nowrap;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            display: flex; align-items: center; gap: 5px;
+            box-shadow: 0 3px 0 #C8C040;
+        }
+
+        .pkg-num    { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 4px; }
+        .p-1 .pkg-num, .p-3 .pkg-num { color: #8A9A8A; }
+        .p-2 .pkg-num { color: rgba(255,255,255,0.55); }
+
+        .pkg-name {
+            font-size: 1.55rem;
+            font-weight: 900;
+            margin-bottom: 2px;
+        }
+        .p-1 .pkg-name { color: var(--green); }
+        .p-2 .pkg-name { color: #FFF; }
+        .p-3 .pkg-name { color: var(--teal); }
+
+        .pkg-time {
+            display: inline-flex; align-items: center; gap: 5px;
+            font-size: 0.84rem; font-weight: 700;
+            margin-bottom: 18px;
+        }
+        .p-1 .pkg-time, .p-3 .pkg-time { color: #7A8A7A; }
+        .p-2 .pkg-time { color: rgba(255,255,255,0.65); }
+
+        .pkg-price-row {
+            display: flex; align-items: flex-end; gap: 4px;
+            padding-bottom: 18px; margin-bottom: 20px;
+            border-bottom: 2px dashed;
+        }
+        .p-1 .pkg-price-row, .p-3 .pkg-price-row { border-color: #D8EED8; }
+        .p-2 .pkg-price-row { border-color: rgba(255,255,255,0.2); }
+
+        .pkg-price {
+            font-size: 3rem;
+            font-weight: 900;
+            line-height: 1;
+        }
+        .p-1 .pkg-price { color: var(--green); }
+        .p-2 .pkg-price { color: var(--yellow); }
+        .p-3 .pkg-price { color: var(--teal); }
+
+        .pkg-unit { font-size: 0.84rem; font-weight: 600; padding-bottom: 7px; }
+        .p-1 .pkg-unit, .p-3 .pkg-unit { color: #8A9A8A; }
+        .p-2 .pkg-unit { color: rgba(255,255,255,0.6); }
+
+        .pkg-list { display: flex; flex-direction: column; gap: 9px; margin-bottom: 24px; }
+
+        .pkg-list li {
+            display: flex; align-items: flex-start; gap: 8px;
+            font-size: 0.9rem; line-height: 1.5; font-weight: 600;
+        }
+        .p-1 .pkg-list li, .p-3 .pkg-list li { color: #3A4A3A; }
+        .p-2 .pkg-list li { color: rgba(255,255,255,0.88); }
+
+        .chk {
+            flex-shrink: 0; width: 18px; height: 18px;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            margin-top: 1px;
+        }
+        .p-1 .chk { background: #D8F0D0; }
+        .p-3 .chk { background: #D0F0F0; }
+        .p-2 .chk { background: rgba(255,255,255,0.22); }
+
+        .pkg-btn {
+            display: block; width: 100%; text-align: center;
+            padding: 13px; border-radius: 100px;
+            font-family: 'Nunito', sans-serif;
+            font-size: 0.95rem; font-weight: 800;
+            cursor: pointer; border: none;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        .pkg-btn:hover { transform: translateY(-2px); }
+
+        .p-1 .pkg-btn { background: var(--green);  color: #FFF; box-shadow: 0 4px 0 #60B840; }
+        .p-2 .pkg-btn { background: var(--yellow); color: #1E1414; box-shadow: 0 4px 0 #C8C040; }
+        .p-3 .pkg-btn { background: var(--teal);   color: #FFF; box-shadow: 0 4px 0 #30A8A8; }
+
+
+        /* ══════════════════════════════════════
+           THEMES
+        ══════════════════════════════════════ */
+        .themes { background: #FFF; }
+
+        .themes .eyebrow { background: #D8F8E8; color: #1A7840; }
+        .themes h2 { color: var(--green); }
+
+        .themes-note {
+            background: #FFF8D8;
+            border: 2.5px solid var(--yellow);
+            border-radius: 16px;
+            padding: 14px 22px;
+            margin: 20px auto 40px;
+            max-width: 600px;
+            text-align: center;
+            font-size: 0.92rem;
+            font-weight: 600;
+            color: #5A4800;
+        }
+
+        .themes-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+
+        .theme-card {
+            border-radius: 22px;
+            padding: 26px 18px 22px;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+        .theme-card:hover { transform: translateY(-5px); }
+
+        /* Update backgrounds when themes are finalized */
+        .t-1 { background: #F8D8EC; }
+        .t-2 { background: #D8E8FF; }
+        .t-3 { background: #FFF3C8; }
+        .t-4 { background: #D8F2E0; }
+        .t-5 { background: #FFE0D8; }
+        .t-6 { background: #EAD8FF; }
+
+        .theme-icon {
+            width: 56px; height: 56px;
+            border-radius: 16px;
+            display: flex; align-items: center; justify-content: center;
+            margin: 0 auto 12px;
+        }
+
+        .t-1 .theme-icon { background: #F07DB5; }
+        .t-2 .theme-icon { background: #7090E0; }
+        .t-3 .theme-icon { background: #D8BE40; }
+        .t-4 .theme-icon { background: var(--green); }
+        .t-5 .theme-icon { background: var(--orange); }
+        .t-6 .theme-icon { background: var(--purple); }
+
+        .theme-card h3 { font-size: 0.97rem; font-weight: 800; color: #1E1414; margin-bottom: 4px; }
+        .theme-card p  { font-size: 0.8rem; color: #5A4850; font-weight: 500; line-height: 1.4; }
+
+        .custom-tag {
+            display: inline-block;
+            background: var(--purple);
+            color: #FFF;
+            font-size: 0.65rem;
+            font-weight: 800;
+            padding: 3px 10px;
+            border-radius: 100px;
+            margin-top: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+
+
+        /* ══════════════════════════════════════
+           HOW IT WORKS
+        ══════════════════════════════════════ */
+        .how { background: #E8F8FF; position: relative; overflow: hidden; }
+
+        .how .eyebrow { background: var(--teal); color: #FFF; }
+        .how h2 { color: var(--teal); }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+            margin-top: 48px;
+            position: relative;
+        }
+
+        .steps::before {
+            content: '';
+            position: absolute;
+            top: 48px;
+            left: calc(16.67% + 24px);
+            right: calc(16.67% + 24px);
+            height: 3px;
+            background: repeating-linear-gradient(90deg, var(--teal) 0, var(--teal) 8px, transparent 8px, transparent 16px);
+        }
+
+        .step { text-align: center; position: relative; z-index: 1; }
+
+        .step-circle {
+            width: 96px; height: 96px;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            margin: 0 auto 18px;
+            font-size: 2rem;
+            font-weight: 900;
+            color: #FFF;
+        }
+
+        .step:nth-child(1) .step-circle { background: var(--green);  box-shadow: 0 6px 0 #60B840; }
+        .step:nth-child(2) .step-circle { background: var(--teal);   box-shadow: 0 6px 0 #30A8A8; }
+        .step:nth-child(3) .step-circle { background: var(--purple); box-shadow: 0 6px 0 #8050BC; }
+
+        .step-card {
+            background: #FFF;
+            border-radius: 20px;
+            padding: 20px 18px;
+            margin-top: 16px;
+            border: 2.5px solid #D8F0F8;
+        }
+
+        .step h3 { font-size: 1.05rem; font-weight: 900; margin-bottom: 8px; color: #1E1414; }
+        .step p  { font-size: 0.88rem; color: #5A6A7A; line-height: 1.7; font-weight: 500; }
+
+
+        /* ══════════════════════════════════════
+           CONTACT
+        ══════════════════════════════════════ */
+        .contact { background: #FFF; }
+
+        .contact .eyebrow { background: #FFD8E8; color: #A01850; }
+        .contact h2 { color: var(--pink); }
+
+        .contact-inner { display: grid; grid-template-columns: 1fr 1.55fr; gap: 56px; align-items: start; }
+
+        .contact-info > p { font-size: 1.02rem; color: #5A4060; line-height: 1.8; margin: 14px 0 28px; font-weight: 500; }
+
+        .contact-tiles { display: flex; flex-direction: column; gap: 12px; }
+
+        .c-tile {
+            background: #FFF;
+            border-radius: 16px;
+            padding: 14px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border: 2.5px solid;
+        }
+
+        .c-tile-1 { border-color: #FFD8C0; }
+        .c-tile-2 { border-color: #C8F0D8; }
+        .c-tile-3 { border-color: #E8D0FF; }
+
+        .c-tile-icon {
+            width: 44px; height: 44px;
+            border-radius: 12px;
+            display: flex; align-items: center; justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .c-tile-1 .c-tile-icon { background: var(--orange); }
+        .c-tile-2 .c-tile-icon { background: var(--green);  }
+        .c-tile-3 .c-tile-icon { background: var(--purple); }
+
+        .c-tile .lbl { font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: #9A8A9A; margin-bottom: 2px; }
+        .c-tile .val { font-weight: 700; font-size: 0.95rem; color: #1E1414; }
+
+        /* form */
+        .form-box {
+            background: #F8F0FF;
+            border-radius: 26px;
+            padding: 32px 28px;
+            border: 3px solid #E8D8FF;
+        }
+
+        .form-box h3 { font-size: 1.15rem; font-weight: 900; margin-bottom: 20px; color: var(--purple); }
+
+        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+        .field { display: flex; flex-direction: column; gap: 4px; }
+        .field.full { grid-column: 1 / -1; }
+
+        .field label { font-size: 0.8rem; font-weight: 800; color: #3A1A50; }
+
+        .field input,
+        .field select,
+        .field textarea {
+            padding: 11px 14px;
+            border: 2.5px solid #D8C8F0;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            color: #1E1414;
+            background: #FFF;
+            transition: border-color 0.2s;
+            width: 100%;
+            -webkit-appearance: none;
+        }
+
+        .field input::placeholder,
+        .field textarea::placeholder { color: #C0B0D0; font-weight: 500; }
+
+        .field input:focus,
+        .field select:focus,
+        .field textarea:focus {
+            outline: none;
+            border-color: var(--purple);
+            box-shadow: 0 0 0 3px rgba(149,88,208,0.12);
+        }
+
+        .field textarea { resize: vertical; min-height: 90px; }
+
+        .form-submit {
+            width: 100%; justify-content: center;
+            margin-top: 8px; padding: 15px;
+            font-size: 1rem; border-radius: 100px;
+        }
+
+        .form-note { text-align: center; font-size: 0.78rem; color: #9A88A8; margin-top: 10px; font-weight: 600; }
+
+
+        /* ══════════════════════════════════════
+           FAQ
+        ══════════════════════════════════════ */
+        .faq { background: #F0F8F0; }
+
+        .faq .eyebrow { background: var(--green); color: #FFF; }
+        .faq h2 { color: var(--green); }
+
+        .faq-list { max-width: 720px; margin: 44px auto 0; display: flex; flex-direction: column; gap: 10px; }
+
+        .faq-item {
+            background: #FFF;
+            border-radius: 18px;
+            overflow: hidden;
+            border: 2.5px solid #C8ECC8;
+        }
+
+        .faq-q {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 18px 22px;
+            cursor: pointer;
+            font-size: 0.97rem; font-weight: 800; color: #1E1414;
+            gap: 14px; user-select: none;
+            border: none; background: none; width: 100%; text-align: left;
+            transition: color 0.2s;
+        }
+        .faq-q:hover { color: var(--green); }
+
+        .faq-chevron {
+            flex-shrink: 0; width: 28px; height: 28px;
+            border-radius: 50%;
+            background: #D8F0D8;
+            display: flex; align-items: center; justify-content: center;
+            transition: transform 0.28s ease, background 0.28s ease;
+            color: var(--green);
+        }
+        .faq-item.open .faq-chevron { transform: rotate(180deg); background: var(--green); color: #FFF; }
+
+        .faq-body { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+        .faq-item.open .faq-body { max-height: 220px; }
+        .faq-body-inner { padding: 0 22px 18px; font-size: 0.93rem; color: #4A6A4A; line-height: 1.76; font-weight: 500; }
+
+
+        /* ══════════════════════════════════════
+           FOOTER
+        ══════════════════════════════════════ */
+        .footer {
+            background: var(--navy);
+            color: #FFF;
+            padding: 52px 28px 28px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* rainbow stripe at top */
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, var(--green), var(--yellow), var(--orange), var(--pink), var(--purple), var(--teal));
+        }
+
+        .footer-inner {
+            max-width: 1120px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 48px;
+        }
+
+        .footer-logo-row {
+            display: flex; align-items: center; gap: 10px;
+            font-size: 1.15rem; font-weight: 900;
+            color: #FFF; margin-bottom: 12px;
+        }
+
+
+        .footer-brand p { font-size: 0.87rem; color: rgba(255,255,255,0.55); line-height: 1.7; max-width: 280px; margin-bottom: 20px; font-weight: 500; }
+
+        .social-row { display: flex; gap: 8px; }
+        .social-ico { width: 38px; height: 38px; background: rgba(255,255,255,0.1); border-radius: 10px; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+        .social-ico:hover { background: var(--purple); }
+
+        .footer-col h4 { font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255,255,255,0.38); margin-bottom: 14px; }
+        .footer-col li + li { margin-top: 8px; }
+        .footer-col a { font-size: 0.9rem; color: rgba(255,255,255,0.65); font-weight: 600; transition: color 0.2s; }
+        .footer-col a:hover { color: var(--yellow); }
+
+        .footer-bottom {
+            max-width: 1120px; margin: 28px auto 0;
+            padding-top: 22px; border-top: 1px solid rgba(255,255,255,0.08);
+            display: flex; justify-content: space-between; align-items: center;
+            flex-wrap: wrap; gap: 8px;
+        }
+        .footer-bottom p { font-size: 0.8rem; color: rgba(255,255,255,0.3); font-weight: 500; }
+
+
+        /* ══════════════════════════════════════
+           RESPONSIVE
+        ══════════════════════════════════════ */
+        @media (max-width: 880px) {
+            .nav-links, .nav > .wrap > .btn { display: none; }
+            .hamburger { display: block; }
+
+            .about-inner   { grid-template-columns: 1fr; }
+            .about-image   { display: none; }
+            .about-cards   { display: none; }
+
+            .party-showcase { max-height: 260px; }
+            .party-showcase img { height: 260px; }
+            .party-showcase-overlay { padding: 0 28px; }
+            .party-showcase-text p { display: none; }
+
+            .act-grid      { grid-template-columns: 1fr; max-width: 420px; margin-left: auto; margin-right: auto; }
+
+            .pkg-grid      { grid-template-columns: 1fr; max-width: 380px; margin-left: auto; margin-right: auto; }
+            .p-2           { order: -1; }
+
+            .themes-grid   { grid-template-columns: repeat(2, 1fr); }
+
+            .steps         { grid-template-columns: 1fr; max-width: 360px; margin-left: auto; margin-right: auto; }
+            .steps::before { display: none; }
+
+            .contact-inner { grid-template-columns: 1fr; }
+            .footer-inner  { grid-template-columns: 1fr; gap: 28px; }
+        }
+
+        @media (max-width: 560px) {
+            section { padding: 60px 0; }
+            .form-grid  { grid-template-columns: 1fr; }
+            .form-box   { padding: 22px 18px; }
+            .about-stats { flex-direction: column; }
+            .footer-bottom { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+
+<!-- NAV ─────────────────────────────────────────── -->
+<header>
+<nav class="nav">
+    <div class="wrap nav-inner">
+
+        <a href="#" class="logo">
+            <img src="images/Little Dreamers - Horizontal.svg" alt="Little Dreamers" height="44">
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+
+        <a href="#contact" class="btn btn-purple">Book a Party</a>
+
+        <button class="hamburger" aria-label="Open menu" aria-expanded="false" onclick="toggleNav(this)">
+            <svg id="hbg" width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                <line x1="2" y1="5.5" x2="20" y2="5.5"/>
+                <line x1="2" y1="11"  x2="20" y2="11"/>
+                <line x1="2" y1="16.5" x2="20" y2="16.5"/>
+            </svg>
+        </button>
+    </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+    <a href="#about"        onclick="closeNav()">About</a>
+    <a href="#activities"   onclick="closeNav()">Activities</a>
+    <a href="#packages"     onclick="closeNav()">Packages</a>
+    <a href="#how-it-works" onclick="closeNav()">How It Works</a>
+    <a href="#faq"          onclick="closeNav()">FAQ</a>
+    <a href="#contact"      onclick="closeNav()" class="mobile-cta">Book a Party</a>
+</div>
+</header>
+
+
+<!-- HERO ─────────────────────────────────────────── -->
+<section class="hero" aria-label="Welcome">
+    <!-- decorative doodles -->
+    <!-- star top-right -->
+    <svg class="deco" style="top:20px;right:60px;width:56px;height:56px;animation:bob 4s ease-in-out infinite;" viewBox="0 0 56 56" aria-hidden="true">
+        <path d="M28 4L33 20H50L37 30L42 46L28 36L14 46L19 30L6 20H23Z" fill="#F5D040"/>
+    </svg>
+    <!-- star mid-right -->
+    <svg class="deco" style="top:140px;right:24px;width:28px;height:28px;animation:bob 5s ease-in-out infinite 0.5s;" viewBox="0 0 28 28" aria-hidden="true">
+        <path d="M14 2L17 10H25L19 15L21 23L14 18L7 23L9 15L3 10H11Z" fill="#28BCBC"/>
+    </svg>
+    <!-- heart left -->
+    <svg class="deco" style="bottom:60px;left:32px;width:44px;height:44px;animation:wiggle 4s ease-in-out infinite;" viewBox="0 0 44 44" aria-hidden="true">
+        <path d="M22 38S6 27 6 16a8 8 0 0 1 16-1 8 8 0 0 1 16 1C38 27 22 38 22 38Z" fill="none" stroke="#E85A9A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <!-- dots scattered -->
+    <svg class="deco" style="top:80px;left:50px;opacity:0.5;" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="7" fill="#9558D0"/></svg>
+    <svg class="deco" style="bottom:80px;right:140px;opacity:0.5;" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><circle cx="5" cy="5" r="5" fill="#6CC848"/></svg>
+    <svg class="deco" style="top:50px;left:160px;opacity:0.4;" width="8" height="8" viewBox="0 0 8 8" aria-hidden="true"><circle cx="4" cy="4" r="4" fill="#F5A030"/></svg>
+
+    <!-- Polaroid photos floating around hero text -->
+    <div class="polaroid pol-1" aria-hidden="true">
+        <img src="images/slime-party.png" alt="Kids making crafts">
+        <div class="polaroid-label">Drip Paint Party</div>
+    </div>
+    <div class="polaroid pol-2" aria-hidden="true">
+        <img src="images/spa-party.jpeg" alt="Kids spa party">
+        <div class="polaroid-label">Spa Day Vibes</div>
+    </div>
+    <div class="polaroid pol-3" aria-hidden="true">
+        <img src="images/sports-party.png" alt="Birthday party fun">
+        <div class="polaroid-label">Party Time!</div>
+    </div>
+    <div class="polaroid pol-4" aria-hidden="true">
+        <img src="images/Teddy-Bear-Customization.png" alt="Kids customizing teddy bears">
+        <div class="polaroid-label">Teddy Bear Party!</div>
+    </div>
+
+    <div class="hero-inner">
+        <h1>
+            Big Birthday<br>
+            <span class="c1">Magic</span> for<br>
+            <span class="c2">Little</span> <span class="c3">Dreamers</span>
+        </h1>
+
+        <p class="hero-desc">
+            We bring the fun, creativity, and party magic to you in Brooklyn, NY and Deal, NJ, with guided activities kids will remember long after the candles are blown out.
+        </p>
+
+        <div class="hero-btns">
+            <a href="#packages" class="btn btn-purple">View Packages</a>
+            <a href="#contact"  class="btn btn-yellow">Book a Party</a>
+        </div>
+
+        <!-- Mobile photo strip (hidden on desktop) -->
+        <div class="mobile-photo-strip" aria-hidden="true">
+            <div class="m-pol">
+                <img src="images/slime-party.png" alt="Kids making crafts">
+                <div class="m-pol-label">Drip Paint Party</div>
+            </div>
+            <div class="m-pol">
+                <img src="images/spa-party.jpeg" alt="Kids spa party">
+                <div class="m-pol-label">Spa Day Vibes</div>
+            </div>
+            <div class="m-pol">
+                <img src="images/sports-party.png" alt="Birthday party fun">
+                <div class="m-pol-label">Party Time!</div>
+            </div>
+            <div class="m-pol">
+                <img src="images/Teddy-Bear-Customization.png" alt="Kids customizing teddy bears">
+                <div class="m-pol-label">Teddy Bear Party!</div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Hidden cards (kept for reference) -->
+        <div class="hero-right" aria-hidden="true" style="display:none;">
+
+            <div class="hero-mini-card hc-purple">
+                <div class="card-icon">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22c3-3 3.5-7 3.5-7L17 4.5a2.12 2.12 0 1 1 3 3L9 18.5S5 19 2 22z"/><path d="M15 5l4 4"/></svg>
+                </div>
+                <h4>Drip Paint</h4>
+                <p>Create your own colorful masterpiece to take home</p>
+            </div>
+
+            <div class="hero-mini-card hc-orange">
+                <div class="card-icon">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7" stroke-width="3"/></svg>
+                </div>
+                <h4>Neon Hat Design</h4>
+                <p>Design your own wearable art to keep</p>
+            </div>
+
+            <div class="hero-mini-card hc-teal">
+                <div class="card-icon">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </div>
+                <h4>Stuff-a-Plush</h4>
+                <p>Stuff and name your own plush friend</p>
+            </div>
+
+            <div class="hero-mini-card hc-green">
+                <div class="card-inner">
+                    <div class="card-icon" style="flex-shrink:0;">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="14" rx="2"/><line x1="12" y1="8" x2="12" y2="22"/><path d="M3 12h18"/><path d="M9 8C9 5 12 3 12 3s3 2 3 5"/></svg>
+                    </div>
+                    <div>
+                        <h4>We bring everything</h4>
+                        <p>All supplies included; you just bring the birthday kid</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ABOUT ─────────────────────────────────────────── -->
+<section id="about" class="about" aria-label="About Little Dreamers">
+    <!-- decorative shapes -->
+    <svg style="position:absolute;top:-30px;right:40px;opacity:0.4;animation:bob 5s ease-in-out infinite;" width="50" height="50" viewBox="0 0 50 50" aria-hidden="true"><path d="M25 4L29 16H42L32 24L36 36L25 28L14 36L18 24L8 16H21Z" fill="#F5D040"/></svg>
+
+<div class="wrap">
+    <div class="about-inner">
+
+        <div class="reveal">
+            <span class="eyebrow">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 4V2M15 16v-2M8 9h2M20 9h2M17.8 11.8 19 13M17.8 6.2 19 5M12.2 6.2 11 5M12.2 11.8 11 13"/><path d="M3 21l9-9"/></svg>
+                About Us
+            </span>
+            <h2 class="section-heading">Party Magic, Delivered to You</h2>
+            <p>
+                Little Dreamers brings creative, hands-on birthday party activities directly to your celebration in Brooklyn and Deal. From themed crafts to plush-making parties, each experience is designed to be fun, organized, and full of memorable moments.
+            </p>
+            <p>
+                Parents provide the party space, and Little Dreamers brings the supplies, guidance, and magic. No setup stress, just pure, joyful creativity and a one-of-a-kind take-home creation for every child.
+            </p>
+
+        </div>
+
+        <div class="about-image reveal">
+            <img src="images/spa-party.jpeg" alt="Kids enjoying a special spa-themed birthday party experience">
+        </div>
+
+    </div>
+</div>
+</section>
+
+
+<!-- ACTIVITIES & THEMES ──────────────────────────────── -->
+<section id="activities" class="activities" aria-label="Party activities and themes">
+<div class="wrap">
+    <div class="centered reveal">
+        <span class="eyebrow">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="13.5" cy="6.5" r="1" fill="currentColor" stroke="none"/><circle cx="17.5" cy="10.5" r="1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="7.5" r="1" fill="currentColor" stroke="none"/><circle cx="6.5" cy="12.5" r="1" fill="currentColor" stroke="none"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>
+            Activities &amp; Themes
+        </span>
+        <h2 class="section-heading" style="color:var(--orange);">Activities &amp; Themes</h2>
+        <p class="section-lead">Every party is built around one guided, hands-on activity. Pick a theme to match, and every child takes home something magical.</p>
+    </div>
+
+    <div class="act-grid stagger">
+
+        <div class="act-card ac-1">
+            <div class="act-icon-box">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 22c3-3 3.5-7 3.5-7L17 4.5a2.12 2.12 0 1 1 3 3L9 18.5S5 19 2 22z"/><path d="M15 5l4 4"/></svg>
+            </div>
+            <span class="act-chip">Arts &amp; Crafts</span>
+            <h3>Drip Paint</h3>
+            <p>Kids create their own colorful drip paint masterpiece. Messy, exciting, and every child takes home something completely unique.</p>
+            <div class="act-detail">
+                <div class="act-themes-label">Themes</div>
+                <div class="act-theme-tags">
+                    <span class="att">Princess &amp; Fairytale</span>
+                    <span class="att">Neon Party</span>
+                    <span class="att">Rainbow Party</span>
+                    <span class="att">Custom Theme</span>
+                </div>
+                <div class="act-takehome">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+                    Takes home: their one-of-a-kind painted canvas
+                </div>
+            </div>
+        </div>
+
+        <div class="act-card ac-2">
+            <div class="act-icon-box">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7" stroke-width="3"/></svg>
+            </div>
+            <span class="act-chip">Wearable Art</span>
+            <h3>Neon Sports Hat Design</h3>
+            <p>Kids design and decorate their own bold neon sports hat. Perfect for sporty or design-loving kids who want something wearable to keep.</p>
+            <div class="act-detail">
+                <div class="act-themes-label">Themes</div>
+                <div class="act-theme-tags">
+                    <span class="att">Sports Party</span>
+                    <span class="att">Neon Party</span>
+                    <span class="att">Custom Theme</span>
+                </div>
+                <div class="act-takehome">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+                    Takes home: a personalized neon sports hat
+                </div>
+            </div>
+        </div>
+
+        <div class="act-card ac-3">
+            <div class="act-icon-box">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <span class="act-chip">Magical Experience</span>
+            <h3>Stuff-a-Plush</h3>
+            <p>Kids stuff and name their own plush animal, take part in a sweet wish ceremony, and receive a birth certificate for their new friend.</p>
+            <div class="act-detail">
+                <div class="act-themes-label">Themes</div>
+                <div class="act-theme-tags">
+                    <span class="att">Animals &amp; Plush</span>
+                    <span class="att">Princess &amp; Fairytale</span>
+                    <span class="att">Custom Theme</span>
+                </div>
+                <div class="act-takehome">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+                    Takes home: their stuffed animal + birth certificate
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="themes-note reveal" style="margin-top: 40px;">
+        <strong>Themes can be adjusted.</strong> Little Dream uses existing themes. Big Dream and Dream Come True include custom options — share your ideas when you book!
+    </div>
+</div>
+</section>
+
+
+<!-- PACKAGES ─────────────────────────────────────── -->
+<section id="packages" class="packages" aria-label="Party packages">
+    <!-- doodle -->
+    <svg style="position:absolute;top:30px;right:60px;opacity:0.25;animation:bob 6s ease-in-out infinite;" width="44" height="44" viewBox="0 0 44 44" aria-hidden="true"><path d="M22 38S6 27 6 16a8 8 0 0 1 16-1 8 8 0 0 1 16 1C38 27 22 38 22 38Z" fill="none" stroke="#9558D0" stroke-width="3" stroke-linecap="round"/></svg>
+
+<div class="wrap">
+    <div class="centered reveal">
+        <span class="eyebrow">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="14" rx="2"/><line x1="12" y1="8" x2="12" y2="22"/><path d="M3 12h18"/><path d="M9 8C9 5 12 3 12 3s3 2 3 5"/></svg>
+            Packages
+        </span>
+        <h2 class="section-heading">Pick Your Perfect Package</h2>
+        <p class="section-lead">Every package includes all supplies and guided fun. Choose the experience that fits your celebration.</p>
+    </div>
+
+    <!-- Update package prices and details here -->
+    <div class="pkg-grid stagger">
+
+        <!-- Package 1: Little Dream -->
+        <div class="pkg p-1">
+            <div class="pkg-num">Package 1</div>
+            <div class="pkg-name">Little Dream</div>
+            <div class="pkg-time">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                1 hour
+            </div>
+            <div class="pkg-price-row">
+                <span class="pkg-price">$35</span>
+                <span class="pkg-unit">/ per child</span>
+            </div>
+            <ul class="pkg-list">
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="#6CC848" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>Choose from existing themes</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="#6CC848" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>1 activity of choice</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="#6CC848" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>All supplies included</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="#6CC848" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>1 hour of guided fun</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="#6CC848" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>Take-home creation for each child</li>
+            </ul>
+            <a href="#contact" class="pkg-btn">Book This Package</a>
+        </div>
+
+        <!-- Package 2: Big Dream (featured) -->
+        <div class="pkg p-2">
+            <div class="pop-badge">
+                <svg width="11" height="11" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 1.5L12.2 7.8H18.8L13.5 11.7L15.7 18L10 14.2L4.3 18L6.5 11.7L1.2 7.8H7.8Z"/></svg>
+                Most Popular
+            </div>
+            <div class="pkg-num">Package 2</div>
+            <div class="pkg-name">Big Dream</div>
+            <div class="pkg-time">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                2 hours
+            </div>
+            <div class="pkg-price-row">
+                <span class="pkg-price">$48</span>
+                <span class="pkg-unit">/ per child</span>
+            </div>
+            <ul class="pkg-list">
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>Custom theme option</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>Longer guided party experience</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>Activity of choice</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>All supplies included</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>More time for creativity &amp; fun</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>Take-home creation for each child</li>
+            </ul>
+            <a href="#contact" class="pkg-btn">Book This Package</a>
+        </div>
+
+        <!-- Package 3: Dream Come True -->
+        <div class="pkg p-3">
+            <div class="pkg-num">Package 3</div>
+            <div class="pkg-name">Dream Come True</div>
+            <div class="pkg-time">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                2 hours
+            </div>
+            <div class="pkg-price-row">
+                <span class="pkg-price">$60</span>
+                <span class="pkg-unit">/ per child</span>
+            </div>
+            <ul class="pkg-list">
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="#28BCBC" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>Fully customized theme</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="#28BCBC" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>Main activity of choice</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="#28BCBC" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>Plus a small bonus activity</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="#28BCBC" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>All supplies included</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="#28BCBC" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>Extra magical party experience</li>
+                <li><span class="chk"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="#28BCBC" stroke-width="2.5" stroke-linecap="round"><path d="M1.5 5L4 7.5L8.5 2"/></svg></span>Take-home creation for each child</li>
+            </ul>
+            <a href="#contact" class="pkg-btn">Book This Package</a>
+        </div>
+
+    </div>
+</div>
+</section>
+
+
+<!-- PARTY SHOWCASE ───────────────────────────────── -->
+<div class="party-showcase" aria-hidden="true">
+    <img src="images/sports-party.png" alt="Kids having a blast at a Little Dreamers birthday party">
+    <div class="party-showcase-overlay">
+        <div class="party-showcase-text">
+            <h2>Every Kid Leaves with a Smile</h2>
+            <p>We bring the energy, the activities, and the magic — right to your party.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- HOW IT WORKS ─────────────────────────────────── -->
+<section id="how-it-works" class="how" aria-label="How it works">
+<div class="wrap">
+    <div class="centered reveal">
+        <span class="eyebrow">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21 3 6"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/></svg>
+            Simple as Can Be
+        </span>
+        <h2 class="section-heading">How It Works</h2>
+        <p class="section-lead">Three simple steps from dream to reality. We take care of the rest.</p>
+    </div>
+
+    <div class="steps stagger">
+        <div class="step">
+            <div class="step-circle">1</div>
+            <div class="step-card">
+                <h3>Choose Your Package</h3>
+                <p>Pick the Little Dream, Big Dream, or Dream Come True experience based on your timing, party size, and how magical you want to make it.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-circle">2</div>
+            <div class="step-card">
+                <h3>Pick Your Activity &amp; Theme</h3>
+                <p>Choose from our guided activities and themes that match your child's interests, or go fully custom with the right package.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-circle">3</div>
+            <div class="step-card">
+                <h3>We Bring the Magic to You</h3>
+                <p>Little Dreamers arrives with everything needed and runs the fun while kids create something they'll love to take home.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<!-- CONTACT ─────────────────────────────────────── -->
+<section id="contact" class="contact" aria-label="Book a party">
+<div class="wrap">
+    <div class="contact-inner">
+
+        <div class="reveal">
+            <span class="eyebrow">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Get in Touch
+            </span>
+            <h2 class="section-heading">Ready to Plan a Dream Party?</h2>
+            <p>Send us the details and we'll help bring it to life. Fill out the form or reach out directly; we'd love to make your child's birthday truly magical.</p>
+
+            <div class="contact-tiles">
+
+                <!-- UPDATE: Replace placeholder contact info -->
+                <div class="c-tile c-tile-1">
+                    <div class="c-tile-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.7 12.1a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.61 1.37h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.03z"/></svg>
+                    </div>
+                    <div>
+                        <div class="lbl">Text or Call</div>
+                        <!-- UPDATE: Replace with real phone number -->
+                        <div class="val"><a href="tel:9178411331" style="color:inherit;">(917) 841-1331</a></div>
+                    </div>
+                </div>
+
+                <div class="c-tile c-tile-2">
+                    <div class="c-tile-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </div>
+                    <div>
+                        <div class="lbl">Email</div>
+                        <div class="val"><a href="mailto:mugrabilauren@gmail.com" style="color:inherit;">mugrabilauren@gmail.com</a></div>
+                    </div>
+                </div>
+
+                <div class="c-tile c-tile-3">
+                    <div class="c-tile-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div>
+                        <div class="lbl">Location</div>
+                        <div class="val">Brooklyn, NY &amp; Deal, NJ</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Booking form
+             Connect a real backend: action="https://formspree.io/f/YOUR_ID" method="POST" (remove onsubmit) -->
+        <div class="form-box reveal">
+            <h3>Tell Us About Your Party</h3>
+            <form id="bookingForm" onsubmit="handleSubmit(event)">
+                <div class="form-grid">
+                    <div class="field"><label for="f-name">Parent / Guardian Name *</label><input type="text" id="f-name" name="name" placeholder="Your name" required></div>
+                    <div class="field"><label for="f-phone">Phone Number *</label><input type="tel" id="f-phone" name="phone" placeholder="(555) 000-0000" required></div>
+                    <div class="field"><label for="f-email">Email Address *</label><input type="email" id="f-email" name="email" placeholder="you@email.com" required></div>
+                    <div class="field"><label for="f-age">Child's Age</label><input type="text" id="f-age" name="child_age" placeholder="e.g. 7 years old"></div>
+                    <div class="field"><label for="f-date">Party Date</label><input type="date" id="f-date" name="party_date"></div>
+                    <div class="field"><label for="f-count">Number of Children</label><input type="number" id="f-count" name="num_children" placeholder="e.g. 12" min="1"></div>
+                    <div class="field">
+                        <label for="f-pkg">Preferred Package</label>
+                        <!-- UPDATE: Keep in sync with package names -->
+                        <select id="f-pkg" name="package">
+                            <option value="">Select a package...</option>
+                            <option value="little-dream">Little Dream$35 / child</option>
+                            <option value="big-dream">Big Dream$48 / child</option>
+                            <option value="dream-come-true">Dream Come True$60 / child</option>
+                            <option value="not-sure">Not sure yet</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="f-act">Preferred Activity</label>
+                        <!-- UPDATE: Keep in sync with activity names -->
+                        <select id="f-act" name="activity">
+                            <option value="">Select an activity...</option>
+                            <option value="drip-paint">Arts &amp; Crafts: Drip Paint</option>
+                            <option value="neon-hat">Neon Sports Hat Design</option>
+                            <option value="stuff-a-plush">Stuff-a-Plush Party</option>
+                            <option value="not-sure">Not sure yet</option>
+                        </select>
+                    </div>
+                    <div class="field full"><label for="f-theme">Theme Ideas</label><input type="text" id="f-theme" name="theme" placeholder="e.g. Rainbow party, sports theme, outer space..."></div>
+                    <div class="field full"><label for="f-msg">Anything else we should know?</label><textarea id="f-msg" name="message" placeholder="Tell us about your child, the venue, any special requests, or questions..."></textarea></div>
+                </div>
+                <button type="submit" class="btn btn-purple form-submit" id="submitBtn">Send My Party Request</button>
+                <p class="form-note">We'll get back to you within 24 hours to start planning your dream party.</p>
+            </form>
+        </div>
+
+    </div>
+</div>
+</section>
+
+
+<!-- FAQ ─────────────────────────────────────────── -->
+<section id="faq" class="faq" aria-label="Frequently asked questions">
+<div class="wrap">
+    <div class="centered reveal">
+        <span class="eyebrow">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            FAQ
+        </span>
+        <h2 class="section-heading">Frequently Asked Questions</h2>
+        <p class="section-lead">Got questions? We've got answers. If you don't see yours here, just reach out.</p>
+    </div>
+
+    <!-- Add or remove FAQ items here -->
+    <div class="faq-list">
+        <div class="faq-item">
+            <button class="faq-q" onclick="toggleFAQ(this)" aria-expanded="false">What ages are Little Dreamers parties for?<span class="faq-chevron"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M2 4.5L6 8.5L10 4.5"/></svg></span></button>
+            <div class="faq-body"><div class="faq-body-inner">Little Dreamers parties can be adapted for a variety of ages. Families can share the child's age when booking so the activity can be planned appropriately to match the group's needs and energy.</div></div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-q" onclick="toggleFAQ(this)" aria-expanded="false">Do you bring the supplies?<span class="faq-chevron"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M2 4.5L6 8.5L10 4.5"/></svg></span></button>
+            <div class="faq-body"><div class="faq-body-inner">Yes. Little Dreamers brings all the supplies needed for the selected activity. You don't need to shop, prep, or worry about materials; we take care of everything.</div></div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-q" onclick="toggleFAQ(this)" aria-expanded="false">Do you host the party at your own location?<span class="faq-chevron"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M2 4.5L6 8.5L10 4.5"/></svg></span></button>
+            <div class="faq-body"><div class="faq-body-inner">No. Little Dreamers comes to you. We travel to your birthday party location in Brooklyn and Deal. You provide the space and the celebration; we bring the magic.</div></div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-q" onclick="toggleFAQ(this)" aria-expanded="false">Can we choose our own theme?<span class="faq-chevron"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M2 4.5L6 8.5L10 4.5"/></svg></span></button>
+            <div class="faq-body"><div class="faq-body-inner">Yes. Some packages include existing Little Dreamers themes, while higher packages allow for custom theme options. Share your ideas when booking and we'll work together to make it happen.</div></div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-q" onclick="toggleFAQ(this)" aria-expanded="false">Does each child get something to take home?<span class="faq-chevron"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M2 4.5L6 8.5L10 4.5"/></svg></span></button>
+            <div class="faq-body"><div class="faq-body-inner">Yes. Each child creates something special to take home: a drip paint masterpiece, a custom neon hat, or their very own stuffed plush animal with a birth certificate.</div></div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<!-- FOOTER ─────────────────────────────────────── -->
+<footer class="footer">
+<div class="footer-inner">
+
+    <div class="footer-brand">
+        <div class="footer-logo-row">
+            <img src="images/Little Dreamers - Stacked.svg" alt="Little Dreamers" height="90">
+        </div>
+        <p>We bring the fun, creativity, and party magic to you, with guided activities kids will remember long after the candles are blown out.</p>
+        <!-- UPDATE: Add real social media links -->
+        <div class="social-row">
+            <a href="#" class="social-ico" aria-label="Instagram">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-ico" aria-label="TikTok">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="rgba(255,255,255,0.75)" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.96a8.28 8.28 0 0 0 4.84 1.56V7.07a4.85 4.85 0 0 1-1.07-.38z"/></svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#themes">Themes</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+            <li><a href="tel:9178411331">(917) 841-1331</a></li>
+            <li><a href="mailto:mugrabilauren@gmail.com">mugrabilauren@gmail.com</a></li>
+            <li><a href="#contact">Book a Party</a></li>
+        </ul>
+        <div style="margin-top:20px;">
+            <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.3);margin-bottom:5px;">Service Area</div>
+            <div style="font-size:0.9rem;color:rgba(255,255,255,0.62);font-weight:600;">Brooklyn, NY &amp; Deal, NJ</div>
+        </div>
+    </div>
+
+</div>
+
+</footer>
+
+
+<script>
+    function toggleNav(btn) {
+        const nav = document.getElementById('mobileNav');
+        const open = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open);
+        document.getElementById('hbg').innerHTML = open
+            ? '<line x1="4" y1="4" x2="18" y2="18"/><line x1="18" y1="4" x2="4" y2="18"/>'
+            : '<line x1="2" y1="5.5" x2="20" y2="5.5"/><line x1="2" y1="11" x2="20" y2="11"/><line x1="2" y1="16.5" x2="20" y2="16.5"/>';
+    }
+
+    function closeNav() {
+        const nav = document.getElementById('mobileNav');
+        const btn = document.querySelector('.hamburger');
+        nav.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+        document.getElementById('hbg').innerHTML = '<line x1="2" y1="5.5" x2="20" y2="5.5"/><line x1="2" y1="11" x2="20" y2="11"/><line x1="2" y1="16.5" x2="20" y2="16.5"/>';
+    }
+
+    document.addEventListener('click', e => {
+        const nav = document.getElementById('mobileNav');
+        const btn = document.querySelector('.hamburger');
+        if (nav.classList.contains('open') && !nav.contains(e.target) && !btn.contains(e.target)) closeNav();
+    });
+
+    function toggleFAQ(btn) {
+        const item = btn.parentElement;
+        const open = item.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open);
+    }
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+            if (e.isIntersecting) { e.target.classList.add('in'); observer.unobserve(e.target); }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -32px 0px' });
+
+    document.querySelectorAll('.reveal, .stagger').forEach(el => observer.observe(el));
+
+    // Web3Forms integration — replace YOUR_ACCESS_KEY_HERE with key from web3forms.com
+    const WEB3FORMS_KEY = "33fc8cad-c62e-464a-8e94-6242583dd95e";
+
+    async function handleSubmit(e) {
+        e.preventDefault();
+        const btn  = document.getElementById('submitBtn');
+        const orig = btn.innerHTML;
+        btn.innerHTML = "Sending…";
+        btn.disabled = true;
+
+        const form = e.target;
+        const data = new FormData(form);
+        data.append("access_key", WEB3FORMS_KEY);
+        data.append("subject", "New Party Request – Little Dreamers");
+        data.append("from_name", "Little Dreamers Website");
+
+        try {
+            const res  = await fetch("https://api.web3forms.com/submit", { method: "POST", body: data });
+            const json = await res.json();
+            if (json.success) {
+                btn.innerHTML = "Request sent — we'll be in touch soon! 🎉";
+                btn.style.background = "#6CC848";
+                form.reset();
+                setTimeout(() => { btn.innerHTML = orig; btn.style.background = ""; btn.disabled = false; }, 6000);
+            } else {
+                throw new Error(json.message);
+            }
+        } catch (err) {
+            btn.innerHTML = "Something went wrong — please try again.";
+            btn.style.background = "#e05";
+            setTimeout(() => { btn.innerHTML = orig; btn.style.background = ""; btn.disabled = false; }, 4000);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+        a.addEventListener('click', e => {
+            const t = document.querySelector(a.getAttribute('href'));
+            if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+        });
+    });
+</script>
+
+</body>
+</html>
