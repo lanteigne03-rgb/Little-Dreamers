@@ -399,6 +399,13 @@
         .hero h1 .c2 { color: var(--orange); }
         .hero h1 .c3 { color: var(--teal); }
 
+        .hero-subheading {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--purple);
+            margin-bottom: 14px;
+        }
+
         .hero-desc {
             font-size: 1.08rem;
             color: #5A4060;
@@ -545,6 +552,8 @@
         .ac-1 { background: var(--orange); }
         .ac-2 { background: var(--teal);   }
         .ac-3 { background: var(--purple); }
+        .ac-4 { background: var(--green);  }
+        .ac-5 { background: var(--pink);   }
 
         .act-icon-box {
             width: 64px; height: 64px;
@@ -1183,6 +1192,8 @@
             <span class="c2">Little</span> <span class="c3">Dreamers</span>
         </h1>
 
+        <p class="hero-subheading">By Lauren Mugrabi</p>
+
         <p class="hero-desc">
             We bring the fun, creativity, and party magic to you in Brooklyn, NY and Deal, NJ, with guided activities kids will remember long after the candles are blown out.
         </p>
@@ -1299,6 +1310,9 @@
         </span>
         <h2 class="section-heading" style="color:var(--orange);">Activities &amp; Themes</h2>
         <p class="section-lead">Every party is built around one guided, hands-on activity. Pick a theme to match, and every child takes home something magical.</p>
+        <div class="themes-note reveal" style="margin-top: 24px;">
+            <strong>Themes can be adjusted.</strong> Little Dream uses existing themes. Big Dream and Dream Come True include custom options — share your ideas when you book!
+        </div>
     </div>
 
     <div class="act-grid stagger">
@@ -1367,10 +1381,47 @@
             </div>
         </div>
 
-    </div>
+        <div class="act-card ac-4">
+            <div class="act-icon-box">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2c-2 4-6 6.5-6 11a6 6 0 0 0 12 0c0-4.5-4-7-6-11z"/><path d="M9 15a3 3 0 0 0 3 3"/></svg>
+            </div>
+            <span class="act-chip">Sensory Fun</span>
+            <h3>Slime Making</h3>
+            <p>Kids mix, stretch, and customize their own batch of gooey slime with colors, glitter, and fun add-ins. A hands-on favorite that's always a hit.</p>
+            <div class="act-detail">
+                <div class="act-themes-label">Themes</div>
+                <div class="act-theme-tags">
+                    <span class="att">Rainbow Party</span>
+                    <span class="att">Neon Party</span>
+                    <span class="att">Custom Theme</span>
+                </div>
+                <div class="act-takehome">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+                    Takes home: their own container of custom slime
+                </div>
+            </div>
+        </div>
 
-    <div class="themes-note reveal" style="margin-top: 40px;">
-        <strong>Themes can be adjusted.</strong> Little Dream uses existing themes. Big Dream and Dream Come True include custom options — share your ideas when you book!
+        <div class="act-card ac-5">
+            <div class="act-icon-box">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21C8 21 4 17.5 4 13c0-3 2-4.5 2-7 0 0 2 1 2 3 0-2 1.5-5 4-5 1 0 1 2 0 3 2-1 4 0 4 2.5 0 1-1 1.5-1 3 0 4.5-3 8.5-3 8.5"/></svg>
+            </div>
+            <span class="act-chip">Pamper Party</span>
+            <h3>Spa Day</h3>
+            <p>Kids relax in robes for mini manicures, face masks, and glitter treatments. A calm, giggly, feel-good party for little spa lovers.</p>
+            <div class="act-detail">
+                <div class="act-themes-label">Themes</div>
+                <div class="act-theme-tags">
+                    <span class="att">Princess &amp; Fairytale</span>
+                    <span class="att">Custom Theme</span>
+                </div>
+                <div class="act-takehome">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+                    Takes home: their spa kit &amp; nail polish set
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 </section>
@@ -1605,6 +1656,8 @@
                             <option value="drip-paint">Arts &amp; Crafts: Drip Paint</option>
                             <option value="neon-hat">Neon Sports Hat Design</option>
                             <option value="stuff-a-plush">Stuff-a-Plush Party</option>
+                            <option value="slime-making">Slime Making</option>
+                            <option value="spa-party">Spa Day</option>
                             <option value="not-sure">Not sure yet</option>
                         </select>
                     </div>
@@ -1636,8 +1689,8 @@
     <!-- Add or remove FAQ items here -->
     <div class="faq-list">
         <div class="faq-item">
-            <button class="faq-q" onclick="toggleFAQ(this)" aria-expanded="false">What ages are Little Dreamers parties for?<span class="faq-chevron"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M2 4.5L6 8.5L10 4.5"/></svg></span></button>
-            <div class="faq-body"><div class="faq-body-inner">Little Dreamers parties can be adapted for a variety of ages. Families can share the child's age when booking so the activity can be planned appropriately to match the group's needs and energy.</div></div>
+            <button class="faq-q" onclick="toggleFAQ(this)" aria-expanded="false">What ages and genders are Little Dreamers parties for?<span class="faq-chevron"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M2 4.5L6 8.5L10 4.5"/></svg></span></button>
+            <div class="faq-body"><div class="faq-body-inner">Little Dreamers parties are for both boys and girls and can be adapted for a variety of ages. Families can share the child's age when booking so the activity can be planned appropriately to match the group's needs and energy.</div></div>
         </div>
         <div class="faq-item">
             <button class="faq-q" onclick="toggleFAQ(this)" aria-expanded="false">Do you bring the supplies?<span class="faq-chevron"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M2 4.5L6 8.5L10 4.5"/></svg></span></button>
